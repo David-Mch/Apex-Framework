@@ -176,7 +176,7 @@ _viewersAll = [
 ];
 // Binoculars and rangefinders (no lasers)
 _viewersBasic = [
-	'binocular','rangefinder'
+	'binocular','rangefinder','laserdesignator_01_khk_f','laserdesignator'
 ];
 // Laser designators
 _viewersLaser = [
@@ -210,9 +210,34 @@ _uniformsSniper = [
 	'u_b_t_sniper_f','u_b_ghilliesuit','u_b_fullghillie_ard','u_b_t_fullghillie_tna_f','u_b_fullghillie_lsh','u_b_fullghillie_sard'
 ];
 // pilot uniforms
-_uniformsPilot = [
+
+ = [
 	'u_b_helipilotcoveralls','u_i_helipilotcoveralls','u_i_pilotcoveralls','u_b_pilotcoveralls'
 ];
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// pilot uniforms
+_uniformsPilotCas = [
+	'','u_b_pilotcoveralls'
+];
+_uniformsPiloheli = [
+	'','u_b_helipilotcoveralls','u_i_pilotcoveralls'
+];
+
+_uniformsUAV= [
+	'','u_b_combatuniform_mcam','u_b_combatuniform_mcam_tshirt','u_i_g_resistanceleader_f','u_b_t_soldier_f','u_b_t_soldier_ar_f','u_i_g_story_protagonist_f'
+];
+
+_uniformsMedic= [
+	'','u_c_paramedic_01_f','u_b_combatuniform_mcam','u_b_combatuniform_mcam_tshirt','u_b_t_soldier_f','u_b_t_soldier_ar_f'
+];
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // all helmets, except for thermal stuff
 _headgearBasic = [
 	'','h_bandanna_gry','h_bandanna_blu','h_bandanna_cbr','h_bandanna_khk_hs','h_bandanna_khk','h_bandanna_mcamo','h_bandanna_sgg','h_bandanna_sand',
@@ -240,6 +265,21 @@ _headgearBasic = [
 _headgearThermal = [
 	'h_helmeto_vipersp_ghex_f','h_helmeto_vipersp_hex_f'
 ];
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+_headgearCas = [
+	'','h_pilothelmetfighter_b'
+];
+
+_headgearHeli = [
+	'','h_pilothelmetheli_b'
+];
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // all vests
 _vestsAll = [
 	'','v_platecarrier2_rgr_noflag_f','v_platecarriergl_blk','v_platecarriergl_rgr','v_platecarriergl_mtp','v_platecarriergl_tna_f','v_platecarrier1_blk','v_platecarrier1_rgr',
@@ -254,6 +294,30 @@ _vestsAll = [
 	'v_carrierrigkbt_01_eaf_f','v_platecarriergl_wdl','v_platecarrier1_wdl','v_platecarrier2_wdl','v_platecarrierspec_wdl','v_smershvest_01_f','v_smershvest_01_radio_f','v_carrierrigkbt_01_heavy_eaf_f',
 	'v_carrierrigkbt_01_heavy_olive_f','v_carrierrigkbt_01_light_eaf_f','v_carrierrigkbt_01_light_olive_f','v_carrierrigkbt_01_eaf_f','v_carrierrigkbt_01_olive_f'
 ];
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*/
+_vestsBasic = [
+	'','v_platecarrier2_rgr_noflag_f','v_platecarriergl_blk','v_platecarriergl_rgr','v_platecarriergl_mtp','v_platecarriergl_tna_f','v_platecarrier1_blk','v_platecarrier1_rgr',
+	'v_platecarrier1_rgr_noflag_f','v_platecarrier1_tna_f','v_platecarrier2_blk','v_platecarrier2_rgr','v_platecarrier2_tna_f','v_platecarrierspec_blk','v_platecarrierspec_rgr',
+	'v_platecarrierspec_mtp','v_platecarrierspec_tna_f','v_chestrig_blk','v_chestrig_rgr','v_chestrig_khk','v_chestrig_oli','v_platecarrierl_ctrg','v_platecarrierh_ctrg',
+	'v_platecarrieriagl_dgtl','v_platecarrieriagl_oli','v_platecarrieria1_dgtl','v_platecarrieria2_dgtl','v_tacvest_gen_f','v_plain_crystal_f',
+	'v_harnessogl_brn','v_harnessogl_ghex_f','v_harnessogl_gry','v_harnesso_brn','v_harnesso_ghex_f','v_harnesso_gry','v_legstrapbag_black_f','v_legstrapbag_coyote_f','v_legstrapbag_olive_f',
+	'v_pocketed_black_f','v_pocketed_coyote_f','v_pocketed_olive_f','v_rangemaster_belt','v_tacvestir_blk','v_rebreatherb',
+	'v_bandollierb_blk','v_bandollierb_cbr','v_bandollierb_ghex_f','v_bandollierb_rgr','v_bandollierb_khk','v_bandollierb_oli','v_tacchestrig_cbr_f','v_tacchestrig_grn_f','v_tacchestrig_oli_f',
+	'v_tacvest_blk','v_tacvest_brn','v_tacvest_camo','v_tacvest_khk','v_tacvest_oli','v_tacvest_blk_police','v_i_g_resistanceleader_f','v_platecarrier_kerry',
+	'v_carrierrigkbt_01_eaf_f','v_platecarriergl_wdl','v_platecarrier1_wdl','v_platecarrier2_wdl','v_platecarrierspec_wdl','v_smershvest_01_f','v_smershvest_01_radio_f','v_carrierrigkbt_01_heavy_eaf_f',
+	'v_carrierrigkbt_01_heavy_olive_f','v_carrierrigkbt_01_light_eaf_f','v_carrierrigkbt_01_light_olive_f','v_carrierrigkbt_01_eaf_f','v_carrierrigkbt_01_olive_f'
+];*/
+
+_vestsheli = [
+	'','v_tacvest_blk'
+];
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // all backpacks
 _backpacksAll = [
 	'','b_bergen_mcamo_f','b_assaultpack_blk','b_assaultpack_cbr','b_assaultpack_dgtl','b_assaultpack_rgr','b_assaultpack_ocamo','b_assaultpack_khk','b_assaultpack_mcamo',
@@ -957,7 +1021,7 @@ if (_role isEqualTo 'jtac') exitWith {
 	]
 };
 // Pilot role
-if (_role in ['pilot','pilot_plane','pilot_cas','pilot_heli']) exitWith {
+if (_role in ['pilot','pilot_plane']) exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
 			[	// ITEMS
@@ -993,20 +1057,72 @@ if (_role in ['pilot','pilot_plane','pilot_cas','pilot_heli']) exitWith {
 		],
 		[	// -------------------------------------------------------------- WHITELIST
 			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
+				_uniformsPilotCas,						// whitelisted UNIFORMS
+				_vestsheli,							// whitelisted VESTS
+				_inventorybasic,						// whitelisted Inventory
+				_assignedItemsBasic,					// whitelisted ASSIGNED ITEMS
+				_headgearCas,						// whitelisted HEADGEAR
+				_gogglesPilot,						// whitelisted goggles
 				_attachmentsAll						// whitelisted Attachments
 			],
 			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			_backpacksCas,							// whitelisted BACKPACKS
+			(_weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersBasic)	// whitelisted WEAPONS
 		]
 	]
 };
+
+if (_role in ['pilot_heli','pilot_armedheli']) exitWith {
+	[
+		[	// -------------------------------------------------------------- BLACKLIST
+			[	// ITEMS
+				[	// blacklisted uniforms
+				
+				],
+				[	// blacklisted vests
+				
+				],
+				[	// blacklisted inventory
+				
+				],
+				[	// blacklisted assigned items
+					'b_uavterminal'
+				],
+				_headgearThermal,	// blacklisted Headgear
+				[	// blacklisted goggles
+				
+				],
+				[	// blacklisted attachments
+				
+				]
+			],
+			[	// blacklisted MAGAZINES
+				
+			],
+			[	// blacklisted BACKPACKS
+			
+			],
+			[	// blacklisted WEAPONS
+			
+			]
+		],
+		[	// -------------------------------------------------------------- WHITELIST
+			[	// ITEMS
+				_uniformsPiloheli,						// whitelisted UNIFORMS
+				_vestsheli,							// whitelisted VESTS
+				_inventorybasic,						// whitelisted Inventory
+				_assignedItemsBasic,					// whitelisted ASSIGNED ITEMS
+				_headgearHeli,						// whitelisted HEADGEAR
+				_gogglesPilot,						// whitelisted goggles
+				_attachmentsAll						// whitelisted Attachments
+			],
+			_magazinesAll,							// whitelisted MAGAZINES
+			_backpacksCas,							// whitelisted BACKPACKS
+			(_weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersBasic)	// whitelisted WEAPONS
+		]
+	]
+};
+
 // Officer/Commander role
 if (_role isEqualTo 'commander') exitWith {
 	[
